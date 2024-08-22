@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Tiny de Lulu - Location Saisonnière</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    
+    <link rel="stylesheet" href="\..\styles\raw\style.css">
+</head>
+<body class="bg-primary">
+<!--MENU de NAVIGATION-->
+    <header class="bg-warning text-success bebasNeue">
+        <div class="container ">
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li><a href="/html/fr/index_fr.html" class="nav-link">accueil</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">La Tiny</a>
+                        <ul class="dropdown-menu bg-warning">
+                            <li><a href="/html/fr/ecology_fr.html" class="dropdown-item">écologie</a></li>
+                            <li><a href="/html/fr/equipment_fr.html" class="dropdown-item">équipement</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/html/fr/discover_fr.html" class="nav-link">découvrir</a></li>
+                    <li><a href="/html/fr/host_fr.html" class="nav-link">hôtes</a></li>
+                    
+                    <li><a href="/html/fr/faq_fr.html" class="nav-link">faq</a></li>
+                    <li><a href="/html/fr/reservation_fr.html" class="nav-link">reserver</a></li>
+                    <li><a href="/html/fr/contact_fr.html" class="nav-link">contact</a></li>
+                    <li><a href="/html/fr/index_fr.html" class="nav-link">fr</a></li>
+                    <li><a href="/html/en/accueil_en.html" class="nav-link">en</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--TITRE ET BANDEAU TOP-->
+    <div class="container">
+        <h1 class="leagueSpartan text-secondary fw-bold text-center">la tiny</h1>
+        <h1 class="leagueSpartan text-secondary fw-bold text-center">de Lulu</h1>
+        <h2 class="bebasNeue text-success text-center">Maison autonome en campagne</h2>
+
+        <p class="leagueSpartan fw-bold text-secondary text-center fs-4 lh-sm">Située en Charente Maritime, près de Saintes et à une heure de l’océan, la tiny de Lulu est une micro maison autonome et écologique pour 2 personnes.</p>
+
+        <div id="diaporama" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/src/orchidee_sauvage.jpg" alt="photos de la tiny" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/src/paysage_1.jpg" alt="photos de la tiny" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/src/petits_pois.jpg" alt="photos de la tiny" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#diaporama" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button"data-bs-target="#diaporama" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+<!--CONTENU DE PAGE-->
+    <div class="container montserrat text-secondary">
+        <p>Vous pouvez nous retrouver sur Instagram et sur notre page AirBnb</p>
+        <!-- LOGO INSTAGRAM et AIRBNB-->
+        <span class="fab fa-airbnb">AirBnB</span>
+        <span class="fab fa-instagram">@latinydelulu</span>
+
+        <p>N’hesitez pas à nous contacter pour avoir plus d’informations</p>
+
+        <form action="">
+            <div class="mb-3">
+                <label class="form-label" for="name">Nom</label>
+                <input class="form-control form-control-lg"  type="text"name="name" id="name">
+            </div class="container ">       
+    
+            <div class="mb-3">
+                <label class="form-label" for="mail">Email</label>
+                <input class="form-control" type="email"name="mail" id="mail">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="message">Racontez nous tout</label>
+                <textarea class="form-control" name="message" id="message" rows="10"></textarea>
+            </div>
+        
+            <input class="btn btn-outline-primary" type="submit" value="Envoyer">
+        </form>
+    </div>
+<!-- FOOTER -->
+
+
+    <footer class="container text-center">
+        <a class=" text-secondary leagueSpartan fw-bold" href="/html/fr/legal_fr.html">Mentions Légales</a>
+    </footer>
+    
+<!-- SCRIPTS JS-->    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
