@@ -1,0 +1,55 @@
+@use "sass:map";
+
+//Fonts
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.leagueSpartan {
+    
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.bebasNeue{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    font-size: calc(5.5rem + 5vw);
+    line-height: calc(4rem + 4vw);
+  }
+
+.subtitle {
+    font-size: calc(1rem + 2vw);
+    line-height: calc(2rem + 1.5vw);
+  }
+  
+  
+  
+
+
+
+
+//Colors
+
+$primary : #829C79;
+$secondary : #FDFBFC;
+$success : #526465;
+$warning : #BBBE9F;
+$info : #636F65;
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
